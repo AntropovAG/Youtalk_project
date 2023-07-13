@@ -1,0 +1,18 @@
+.sidebar__img {
+    width: 257px;
+    height: 206px;
+}
+
+@media screen and (max-width: 1220px) {
+    .sidebar__img {
+        width: 181px;
+        height: 145px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .sidebar__img {
+        width: 257px;
+        height: 206px;
+    }
+}

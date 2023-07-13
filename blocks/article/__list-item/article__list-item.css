@@ -1,0 +1,12 @@
+.article__list-item {
+    position: relative;
+    padding-left: 32px;
+}
+
+.article__list-item::before {
+    content: url(/images/list-style-img.svg);
+    position: absolute;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}

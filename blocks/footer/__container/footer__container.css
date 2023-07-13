@@ -1,0 +1,36 @@
+.footer__container {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 40px auto 0;
+}
+
+@media screen and (max-width: 1220px) {
+    .footer__container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .footer__container {
+        width: 728px;
+        flex-wrap: wrap;
+        gap: 26px 0;
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .footer__container {
+        width: 374px;
+        flex-wrap: wrap;
+        gap: 23px 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .footer__container {
+        width: 288px;
+        flex-wrap: wrap;
+    }
+}

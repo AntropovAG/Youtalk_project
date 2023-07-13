@@ -1,0 +1,32 @@
+.sidebar__gift-icon {
+    content: url(/images/giftboxes1.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1220px) {
+    .sidebar__gift-icon {
+        content: url(/images/giftboxes2.png);
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .sidebar__gift-icon {
+        content: url(/images/giftboxes3.png);
+    }
+}
+
+
+@media screen and (max-width: 755px) {
+    .sidebar__gift-icon {
+        content: url(/images/giftboxes4.png);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .sidebar__gift-icon {
+        content: url(/images/giftboxes5.png);
+    }
+}

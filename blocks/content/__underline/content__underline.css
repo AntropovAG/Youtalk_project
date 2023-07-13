@@ -1,0 +1,10 @@
+.content__underline {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+@media screen and (max-width: 1220px) {
+    .content__underline {
+        display: none;
+    }
+}

@@ -1,0 +1,4 @@
+.footer__social-container {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,30 @@
+.header__container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1220px) {
+    .header__container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .header__container {
+        width: 728px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .header__container {
+        width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header__container {
+        width: 288px;
+    }
+}

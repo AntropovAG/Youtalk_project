@@ -1,0 +1,32 @@
+.blog-card {
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+}
+
+@media screen and (max-width: 1220px) {
+    .blog-card {
+        max-width: 304px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .blog-card {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .blog-card {
+        max-width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .blog-card {
+        max-width: 288px;
+    }
+}

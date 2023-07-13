@@ -1,0 +1,33 @@
+.article__quote-text {
+    max-width: 642px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1220px) {
+    .article__quote-text {
+        max-width: 666px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .article__quote-text {
+        max-width: 680px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .article__quote-text {
+        max-width: 342px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__quote-text {
+        max-width: 256px;
+    }
+}

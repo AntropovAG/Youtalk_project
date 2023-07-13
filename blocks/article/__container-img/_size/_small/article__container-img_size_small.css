@@ -1,0 +1,18 @@
+.article__container-img_size_small {
+    width: 281px;
+    height: 174px;
+}
+
+@media screen and (max-width: 755px) {
+    .article__container-img_size_small {
+        width: 374px;
+        height: 207px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__container-img_size_small {
+        width: 288px;
+        height: 160px;
+    }
+}

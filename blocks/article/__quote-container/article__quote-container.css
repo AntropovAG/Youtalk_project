@@ -1,0 +1,27 @@
+.article__quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 162px;
+    background-color: #F3F7FE;
+    border-radius: 16px;
+    gap: 8px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+@media screen and (max-width: 755px) {
+    .article__quote-container {
+        min-height: 218px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__quote-container {
+        min-height: 290px;
+    }
+}

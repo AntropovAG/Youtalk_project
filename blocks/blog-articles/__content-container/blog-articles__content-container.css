@@ -1,0 +1,28 @@
+.blog-articles__content-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 240px;
+    padding: 16px;
+    border: 1px solid #DEDEDE;
+    border-radius: 0 0 16px 16px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 985px) {
+    .blog-articles__content-container {
+        min-height: 196px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .blog-articles__content-container {
+        min-height: 260px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .blog-articles__content-container {
+        min-height: 278px;
+    }
+}

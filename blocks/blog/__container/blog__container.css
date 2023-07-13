@@ -1,0 +1,30 @@
+.blog__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1220px) {
+    .blog__container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .blog__container {
+        max-width: 728px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .blog__container {
+        max-width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .blog__container {
+        max-width: 288px;
+    }
+}

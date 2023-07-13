@@ -1,0 +1,22 @@
+.article__container-img_size_large {
+    width: 282px;
+    height: 380px;
+}
+
+@media screen and (max-width: 985px) {
+    .article__container-img_size_large {
+        width: 294px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .article__container-img_size_large {
+        width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__container-img_size_large {
+        width: 288px;
+    }
+}

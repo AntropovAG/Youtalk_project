@@ -1,0 +1,7 @@
+.article__quote-background {
+    width: 240px;
+    height: 168px;
+    position: absolute;
+    z-index: -1;
+    left: calc(50% - 120px);
+}

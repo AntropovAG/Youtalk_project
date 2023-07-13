@@ -1,0 +1,16 @@
+.article__training-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FEFAEC;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 755px) {
+    .article__training-container {
+        padding: 16px;
+    }
+}

@@ -1,0 +1,16 @@
+.sidebar__list-item {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    padding: 8px 0 0 24px;
+}
+
+.sidebar__list-item::before {
+    content: url(/images/list-style-img.svg);
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}

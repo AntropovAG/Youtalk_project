@@ -1,0 +1,35 @@
+.sidebar__session-description {
+    max-width: 196px;
+    color: #011632;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1220px) {
+    .sidebar__session-description {
+        max-width: 174px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .sidebar__session-description {
+        max-width: 291px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .sidebar__session-description {
+        max-width: 326px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .sidebar__session-description {
+        max-width: 254px;
+    }
+}

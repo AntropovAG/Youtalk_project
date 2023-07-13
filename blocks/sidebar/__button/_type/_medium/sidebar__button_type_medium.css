@@ -1,0 +1,7 @@
+@media screen and (max-width: 985px) {
+    .sidebar__button_type_medium {
+        width: 250px;
+        margin-top: 20px;
+    }
+}
+

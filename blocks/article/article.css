@@ -1,0 +1,38 @@
+.article {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 54px auto 0;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+@media screen and (max-width: 1220px) {
+    .article {
+        max-width: 960px;
+        border-bottom: none;
+        margin-bottom: 71px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .article {
+        flex-direction: column;
+        max-width: 728px;
+        margin-bottom: 63px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .article {
+        max-width: 374px;
+        margin-top: 32px;
+        margin-bottom: 127px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article {
+        max-width: 288px;
+        margin-bottom: 60px;
+    }
+}

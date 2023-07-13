@@ -1,0 +1,9 @@
+.sidebar__icon {
+    position: absolute;
+    left: 0;
+    top: -6px;
+}
+
+.sidebar__icon:last-of-type {
+    top: 26px
+}

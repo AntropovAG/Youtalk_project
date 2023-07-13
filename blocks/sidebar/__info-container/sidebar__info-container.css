@@ -1,0 +1,26 @@
+.sidebar__info-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+@media screen and (max-width: 985px) {
+    .sidebar__info-container {
+        width: 307px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .sidebar__info-container {
+        width: 326px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .sidebar__info-container {
+        width: 240px;
+    }
+}

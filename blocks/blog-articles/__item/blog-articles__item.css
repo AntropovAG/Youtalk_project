@@ -1,0 +1,32 @@
+.blog-articles__item {
+    max-width: 588px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+}
+
+@media screen and (max-width: 1220px) {
+    .blog-articles__item {
+        max-width: 468px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .blog-articles__item {
+        max-width: 728px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .blog-articles__item {
+        max-width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .blog-articles__item {
+        max-width: 288px;
+    }
+}

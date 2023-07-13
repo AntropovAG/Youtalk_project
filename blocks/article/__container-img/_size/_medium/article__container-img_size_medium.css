@@ -1,0 +1,28 @@
+.article__container-img_size_medium {
+    width: 333px;
+    height: 235px;
+}
+
+@media screen and (max-width: 1220px) {
+    .article__container-img_size_medium {
+        width: 345px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .article__container-img_size_medium {
+        width: 356px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .article__container-img_size_medium {
+        width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__container-img_size_medium {
+        width: 288px;
+    }
+}

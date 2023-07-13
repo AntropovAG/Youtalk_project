@@ -1,0 +1,13 @@
+.page__small-circle {
+    height: 240px;
+    position: absolute;
+    top: 5269px;
+    right: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1220px) {
+    .page__small-circle {
+        display: none;
+    }
+}

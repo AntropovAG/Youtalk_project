@@ -1,0 +1,32 @@
+.content__navigation {
+    max-width: 1200px;
+    display: flex;
+    margin: 15px auto 0;
+    padding-left: 14px;
+}
+
+@media screen and (max-width: 1220px) {
+    .content__navigation {
+        max-width: 960px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .content__navigation {
+        max-width: 728px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .content__navigation {
+        max-width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .content__navigation {
+        max-width: 288px;
+        margin-top: 24px;
+    }
+}

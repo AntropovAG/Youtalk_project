@@ -1,0 +1,18 @@
+.footer__input-container {
+    display: flex;
+    position: relative;
+    width: 384px;
+    margin: 8px 0;
+}
+
+@media screen and (max-width: 755px) {
+    .footer__input-container {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .footer__input-container {
+        width: 288px;
+    }
+}

@@ -1,0 +1,31 @@
+.sidebar__item_type_img {
+    height: 292px;
+    padding: 0;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1220px) {
+    .sidebar__item_type_img {
+        height: 311px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .sidebar__item_type_img {
+        width: 356px;
+        height: 242px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .sidebar__item_type_img {
+        width: 374px;
+        height: 292px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .sidebar__item_type_img {
+        width: 288px;
+    }
+}

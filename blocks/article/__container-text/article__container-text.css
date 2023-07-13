@@ -1,0 +1,33 @@
+.article__container-text {
+    max-width: 385px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1220px) {
+    .article__container-text {
+        max-width: 408px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .article__container-text {
+        max-width: 418px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .article__container-text {
+        max-width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__container-text {
+        max-width: 288px;
+    }
+}

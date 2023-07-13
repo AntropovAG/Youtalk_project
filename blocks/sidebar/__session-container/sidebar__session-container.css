@@ -1,0 +1,35 @@
+.sidebar__session-container {
+    max-width: 218px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+}
+
+@media screen and (max-width: 1220px) {
+    .sidebar__session-container {
+        max-width: 174px;
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .sidebar__session-container {
+        max-width: 307px;
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .sidebar__session-container {
+        max-width: 326px;
+        padding: 1px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .sidebar__session-container {
+        max-width: 254px;
+    }
+}

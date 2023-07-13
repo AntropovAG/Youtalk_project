@@ -1,0 +1,33 @@
+.article__quote-img {
+    position: absolute;
+    width: 55px;
+    height: 36px;
+    top: 24px;
+    left: 24px;
+}
+
+@media screen and (max-width: 1220px) {
+    .article__quote-img {
+        width: 58px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .article__quote-img {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .article__quote-img {
+        width: 30px;
+        top: 10px;
+        left: 16px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__quote-img {
+        width: 22px;
+    }
+}

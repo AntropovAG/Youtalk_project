@@ -1,0 +1,13 @@
+.article__navigation {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1220px) {
+    .article__navigation {
+        display: none;
+    }
+}

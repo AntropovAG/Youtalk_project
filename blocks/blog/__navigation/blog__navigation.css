@@ -1,0 +1,16 @@
+.blog__navigation {
+    display: flex;
+    gap: 8px;
+    margin: 32px 0 0 0;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 755px) {
+    .blog__navigation {
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        margin-top: 24px;
+    }
+}

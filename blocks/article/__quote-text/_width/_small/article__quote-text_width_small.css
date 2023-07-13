@@ -1,0 +1,16 @@
+.article__quote-text_width_small {
+    max-width: 485px;
+    text-align: center;
+}
+
+@media screen and (max-width: 755px) {
+    .article__quote-text_width_small {
+        max-width: 374px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__quote-text_width_small {
+        max-width: 288px;
+    }
+}

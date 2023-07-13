@@ -1,0 +1,6 @@
+.find-specialist__container {
+    max-width: 348px;
+    display: flex;
+    flex-direction: column;
+    margin: 72px 0 76px;
+}

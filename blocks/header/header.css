@@ -1,0 +1,19 @@
+.header {
+    min-height: 76px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #EFF5FB;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 755px) {
+    .header {
+        min-height: 72px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header {
+        min-height: 56px;
+    }
+}

@@ -1,0 +1,12 @@
+.content__link {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+}
+
+.content__link:last-of-type {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

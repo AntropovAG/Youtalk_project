@@ -1,0 +1,32 @@
+.article__container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 333px;
+    gap: 24px;
+}
+
+@media screen and (max-width: 1220px) {
+    .article__container-item {
+        max-width: 345px;
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .article__container-item {
+        max-width: 356px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .article__container-item {
+        max-width: 374px;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .article__container-item {
+        max-width: 288px;
+    }
+}

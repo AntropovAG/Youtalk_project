@@ -1,0 +1,19 @@
+.article__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 755px) {
+    .article__container {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .article__container {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
